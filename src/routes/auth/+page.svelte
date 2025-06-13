@@ -199,7 +199,7 @@
 							class="flex items-center justify-center gap-3 text-xl sm:text-2xl text-center font-semibold dark:text-gray-200"
 						>
 							<div>
-								{$i18n.t('Signing in to Lemony Click')}
+								{$i18n.t('Signing in to Lemony Chat')}
 							</div>
 
 							<div>
@@ -219,13 +219,13 @@
 							<div class="mb-1">
 								<div class=" text-2xl font-medium">
 									{#if $config?.onboarding ?? false}
-										{$i18n.t(`Get started with Lemony Click`)}
+										{$i18n.t(`Get started with Lemony Chat`)}
 									{:else if mode === 'ldap'}
-										{$i18n.t(`Sign in to Lemony Click with LDAP`)}
+										{$i18n.t(`Sign in to Lemony Chat with LDAP`)}
 									{:else if mode === 'signin'}
-										{$i18n.t(`Sign in to Lemony Click`)}
+										{$i18n.t(`Sign in to Lemony Chat`)}
 									{:else}
-										{$i18n.t(`Sign up to Lemony Click`)}
+										{$i18n.t(`Sign up to Lemony Chat`)}
 									{/if}
 								</div>
 
