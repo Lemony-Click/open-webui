@@ -198,7 +198,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Functions')} • {$WEBUI_NAME}
+		{$i18n.t('Functions')} • Lemony Chat
 	</title>
 </svelte:head>
 

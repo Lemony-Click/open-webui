@@ -157,7 +157,7 @@
 
 <svelte:head>
 	<title>
-		{`${$WEBUI_NAME}`}
+		{`$Lemony Chat`}
 	</title>
 </svelte:head>
 
@@ -231,7 +231,7 @@
 
 								{#if $config?.onboarding ?? false}
 									<div class="mt-1 text-xs font-medium text-gray-600 dark:text-gray-500">
-										ⓘ {$WEBUI_NAME}
+										ⓘ Lemony Chat
 										{$i18n.t(
 											'does not make any external connections, and your data stays securely on your locally hosted server.'
 										)}

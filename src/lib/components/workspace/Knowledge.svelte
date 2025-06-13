@@ -83,7 +83,7 @@
 
 <svelte:head>
 	<title>
-		{$i18n.t('Knowledge')} • {$WEBUI_NAME}
+		{$i18n.t('Knowledge')} • Lemony Chat
 	</title>
 </svelte:head>
 
